@@ -1,0 +1,33 @@
+form{
+	width:250px;
+	height:auto;
+	background:#202020;
+	padding:15px;
+	overflow:hidden;
+	-webkit-box-shadow: 1px 1px 2px 1px #666666;
+	box-shadow: 1px 1px 2px 1px #666666;
+	margin:0px auto;
+}
+input[type="text"]{
+	padding:15px;
+	width:100%;
+	box-sizing:border-box;
+	text-align:right;
+	font-family: 'Orbitron', sans-serif;
+	font-size:20px;
+}
+input[type="button"]{
+    width: 59px;
+    height: 55px;
+    font-size: 20px;
+	background-color: black;
+	color: white;
+	display:inline-block;
+	margin:2px 0px;
+	font-family: 'Orbitron', sans-serif;
+}
+input[name="screen"]{
+	margin-bottom: 24px;
+	background-color: #363636;
+	color: white;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+	<!-- Simple Calculator -->
+		<meta charset="UTF-8">
+		<title>Simple Calculator</title>
+		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form action="" name="display">
+			<input type="text" name="screen" placeholder="Casio" disabled/>
+			<input type="button" value="&radic;" onclick="display.screen.value=Math.sqrt(display.screen.value)" />
+			<input type="button" value="CE" onclick="display.screen.value=''" />
+			<input type="button" value="C" onclick="display.screen.value=''" />
+			<input type="button" value="&larr;" onclick="display.screen.value=display.screen.value.slice(0,-1)" />
+			<br/>			
+			<input type="button" value="7" onclick="display.screen.value +='7';" />
+			<input type="button" value="8" onclick="display.screen.value +='8';" />
+			<input type="button" value="9" onclick="display.screen.value +='9';" />
+			<input type="button" value="+" onclick="display.screen.value +='+';" />
+			<br/>			
+			<input type="button" value="4" onclick="display.screen.value +='4';" />
+			<input type="button" value="5" onclick="display.screen.value +='5';" />
+			<input type="button" value="6" onclick="display.screen.value +='6';" />
+			<input type="button" value="-" onclick="display.screen.value +='-';" />
+			<br/>			
+			<input type="button" value="1" onclick="display.screen.value +='1';" />
+			<input type="button" value="2" onclick="display.screen.value +='2';" />
+			<input type="button" value="3" onclick="display.screen.value +='3';" />
+			<input type="button" value="*" onclick="display.screen.value +='*';" />
+			<br/>			
+			<input type="button" value="0" onclick="display.screen.value +='0';" />
+			<input type="button" value="." onclick="display.screen.value +='.';" />
+			
+			<input type="button" value="=" onclick="display.screen.value=eval(display.screen.value)"/>
+			
+			
+			<input type="button" value="/" onclick="display.screen.value +='/';" />
+		</form>
+	</body>
+</html>
